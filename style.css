@@ -1,24 +1,44 @@
-content {
+main {
+    display: grid;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    
 }
 header {
     background-color: lawngreen;
+    display: grid;
+    grid-area: h;
 }
 nav {
-    
+    display: grid;
+    grid-area: n;
+    background-color: black;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
 }
 
-main {
-
-}
-aside {
-
+article {
+    display: grid;
+    grid-area: a;
 }
 footer {
-
+    display: grid;
+    grid-area: f;
 }
 
 h1 {
 
 }
+
+h2 {
+
+}
+
+p {
+
+}
+
+nav ul a:link {
+    color: white;
+    text-decoration: none;
+    background-color: white;
+}
+
