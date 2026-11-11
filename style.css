@@ -1,8 +1,9 @@
 content {
-
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
 }
 header {
-
+    background-color: lawngreen;
 }
 nav {
     
@@ -15,5 +16,9 @@ aside {
 
 }
 footer {
+
+}
+
+h1 {
 
 }
